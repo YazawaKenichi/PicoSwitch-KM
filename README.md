@@ -5,11 +5,12 @@ Raspberry Pi Pico を用いて Splatoon 3 をキーマウでプレイする。
 
 # 必要なもの
 - Raspberry Pi Pico ( * 1 )
-- USB A Female Socket Bradboard Adapter ( * 2 )
-- Breadboard ( * 1 )
-- USB Type-C to Micro B Cable ( * 1 )
-- Your favorite Keyboard and Mouse ( * 1 set )
-- Jumper for Breadboard ( * several )
+- USB A メスソケットをブレットボードにさせるようにしたやつ ( * 2 )
+- ブレットボード ( * 1 )
+- USB Type-C to Micro B ケーブル ( * 1 ) ( 本体に接続する場合 )
+- USB A to Micro B ケーブル ( * 1 ) ( ドックに接続する場合 )
+- テキトーなキーボードとマウス ( * 1 セット )
+- テキトーなジャンパ ( * 数本 )
 
 # 準備
 ## ファームウェア
@@ -17,7 +18,8 @@ Raspberry Pi Pico を用いて Splatoon 3 をキーマウでプレイする。
 ## ハードウェア
 
 # インストール
-1. Raspberry Pi Pico ボード上の BOOTSEL ボタンを押したまま PC と Raspberry Pi Pico を接続し
+1. Raspberry Pi Pico ボード上の BOOTSEL ボタンを押したまま PC と Raspberry Pi Pico を接続する
+2. PC に USB メモリとして認識されるので、LoremIpsum.uf2 を Raspberry Pi Pico に D&D
 
 # 使用方法
 ファームウェアをインストールした後、Raspberry Pi Pico ・キーボード・マウス・ Nintendo Switch ( Dock でも可 ) を接続してください。
